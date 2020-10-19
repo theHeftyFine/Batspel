@@ -1,0 +1,14 @@
+{
+  "header": "Mijn boot",
+  "caption": "Mijn boot kabbelt rustig in de baai. Hij lijkt in goede staat",
+  "options": [
+    {
+      "text": "vaar naar urk",
+      "value": 10
+    },
+    {
+      "text": "vaar naar pampus",
+      "value": "20
+    }
+  ]
+}
