@@ -20,5 +20,10 @@ namespace Assets.UI
         {
             model.mainGUI.SetActive(false);
         }
+
+        public void CloseUI ()
+        {
+            model.CloseUI();
+        }
     }
 }

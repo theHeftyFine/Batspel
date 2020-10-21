@@ -23,7 +23,7 @@ public class UIModel
         open = true;
     }
 
-    public void ClosePanel()
+    public void CloseUI()
     {
         mainGUI.SetActive(false);
         foreach (GameObject panel in subPanels) { panel.SetActive(false); }

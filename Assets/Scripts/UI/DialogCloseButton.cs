@@ -12,7 +12,7 @@ namespace Assets.UI {
 
         public void OnButtonPress()
         {
-            model.ClosePanel();
+            model.CloseUI();
         }
     }
 }
