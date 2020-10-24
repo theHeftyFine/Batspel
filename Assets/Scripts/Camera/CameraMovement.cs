@@ -21,8 +21,6 @@ public class CameraMovement : MonoBehaviour
 
     void OnEnable()
     {
-
-
         if (cam == null)
         {
             cam = GetComponent<Camera>();
@@ -51,8 +49,8 @@ public class CameraMovement : MonoBehaviour
             float scroll = Input.mouseScrollDelta.y;
             cam.orthographicSize -= scroll*scrollSpeed*Time.deltaTime;
             cam.orthographicSize = Mathf.Clamp(cam.orthographicSize, 0.5f, 45f);
-            
         }
+
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mouse = Input.mousePosition;

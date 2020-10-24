@@ -806,9 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c704fc02b91b58a43b717a8401a0c6f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  map: {fileID: 0}
-  tm: {fileID: 0}
+  scrollArea: 10
   scrollSpeed: 32
 --- !u!20 &519420031
 Camera:
@@ -1070,7 +1068,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545515042}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd64d6d34656027478cd6b69efe3631e, type: 3}
   m_Name: 
