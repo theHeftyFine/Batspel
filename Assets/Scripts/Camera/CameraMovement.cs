@@ -1,7 +1,7 @@
-﻿using System.Collections;
+﻿using Assets.State;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -11,6 +11,8 @@ public class CameraMovement : MonoBehaviour
     Camera cam;
     Grid map;
     Tilemap tm;
+
+    public GameObject dockPanel;
 
     [SerializeField]
     int scrollArea = 10;
@@ -56,7 +58,11 @@ public class CameraMovement : MonoBehaviour
             Vector3 mouse = Input.mousePosition;
             Vector3 clickpos = cam.ScreenToWorldPoint(mouse);
 
-            Debug.Log(tm.GetTile(Vector3Int.FloorToInt(clickpos)));
+            var tile = tm.GetTile(Vector3Int.FloorToInt(clickpos));
+            //if(tile != null)
+            //{
+                //GameState.GetModel<UIModel>().OpenPanel(dockPanel);
+            //}
         }
     }
 }

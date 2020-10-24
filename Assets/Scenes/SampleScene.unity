@@ -806,6 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c704fc02b91b58a43b717a8401a0c6f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dockPanel: {fileID: 185397916}
   scrollArea: 10
   scrollSpeed: 32
 --- !u!20 &519420031

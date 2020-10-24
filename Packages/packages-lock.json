@@ -91,6 +91,12 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.ide.visualstudio": {
+      "version": "file:D:/Development/Games/Unity/Urk Dunustu/Library/PackageCache/com.unity.ide.visualstudio@2.0.3",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.ide.vscode": {
       "version": "1.2.2",
       "depth": 0,
