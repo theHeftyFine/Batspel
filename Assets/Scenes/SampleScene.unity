@@ -477,6 +477,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 813103923}
+  - {fileID: 375979427}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -583,7 +584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &375979427
 Transform:
   m_ObjectHideFlags: 0
@@ -591,14 +592,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375979426}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 407.39996, y: 455, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -241.47766, y: 117.24133, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 140479234}
   - {fileID: 1792771552}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 286944642}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &407611025
 GameObject:
@@ -1402,13 +1403,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 813103923}
+  - component: {fileID: 813103924}
   m_Layer: 0
   m_Name: Sea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &813103923
 Transform:
   m_ObjectHideFlags: 0
@@ -1426,6 +1428,18 @@ Transform:
   m_Father: {fileID: 286944642}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &813103924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813103922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd64d6d34656027478cd6b69efe3631e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &871703522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,7 +2334,6 @@ GameObject:
   - component: {fileID: 1756133806}
   - component: {fileID: 1756133808}
   - component: {fileID: 1756133807}
-  - component: {fileID: 1756133809}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -2386,18 +2399,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756133805}
   m_CullTransparentMesh: 0
---- !u!114 &1756133809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756133805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd36599018733054a9ad732513cb01e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1778382327
 GameObject:
   m_ObjectHideFlags: 0
@@ -2914,7 +2915,6 @@ GameObject:
   - component: {fileID: 1940057255}
   - component: {fileID: 1940057254}
   - component: {fileID: 1940057253}
-  - component: {fileID: 1940057256}
   m_Layer: 5
   m_Name: ShipSelect
   m_TagString: Untagged
@@ -3049,18 +3049,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940057251}
   m_CullTransparentMesh: 0
---- !u!114 &1940057256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1940057251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09152f552b2e6744fa9ee598c6b93bec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2004569493
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class MapRegister : MonoBehaviour
     void Start()
     {
         model.RegisterMap(gameObject);
+        gameObject.SetActive(false);
     }
 
 }
